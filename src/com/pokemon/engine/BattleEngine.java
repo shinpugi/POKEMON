@@ -51,8 +51,9 @@ public class BattleEngine {
         Pokemon pActive = player.getActivePokemon();
         System.out.println("\n==================================");
         System.out.println(player.getName() + "'s Lv.67 " + pActive.getName() + " [HP: " + pActive.getHpBar() + "]");
-        //System.out.println(aiBot.getName() + "'s Lv. 67 " + aiBot.getActivePokemon().getName() + " [HP: " + aiBot.getActivePokemon().getHpBar() + "]");
-        System.out.println(aiBot.getName() + "'s Lv. 67 " + aiBot.getActivePokemon().getName() + " [HP: " + aiBot.getActivePokemon().getHpBar() + "] " + aiBot.getItemCount("Full Restore Potion") + " Potions");
+        System.out.println(aiBot.getName() + "'s Lv. 67 " + aiBot.getActivePokemon().getName() + " [HP: " + aiBot.getActivePokemon().getHpBar() + "]");
+        //Debugger for Potion count
+        //System.out.println(aiBot.getName() + "'s Lv. 67 " + aiBot.getActivePokemon().getName() + " [HP: " + aiBot.getActivePokemon().getHpBar() + "] " + aiBot.getItemCount("Full Restore Potion") + " Potions");
         System.out.println("----------------------------------");
         System.out.println("1. Attack  2. Full Restore (" + player.getItemCount("Full Restore Potion") + " left)  3. Switch");
         System.out.print("Choice: ");
